@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>position</title>
+        <style>
+            body{
+                margin: 0px;
+            }
+            .main{
+                width: 100vw;
+                height: 100vh;
+                background-color: rgb(228,228,228);
+                position: relative;
+            }
+            .box{
+                width: 20vw;
+                height: 40vh;
+                border-radius: 30px;
+                font-size: 250px;
+                color: white;
+                font-weight: bolder;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all 1s ease-in-out;
+            }
+            .sub1{
+                background-color: red;
+                position: absolute;
+                top: 30vh;
+                left: 4vw;
+            }
+            .sub2{
+                background-color: green;
+                position: absolute;
+                top: 33vh;
+                left: 28vw;
+            }
+            .sub3{
+                background-color: dodgerblue;
+                position: absolute;
+                top: 30vh;
+                right: 28vw;
+            }
+            .sub4{
+                background-color:yellow;
+                position: absolute;
+                top:33vh;
+                right:4vw;
+            }
+            .sub5 img{
+                width: 250px;
+                margin-bottom:40px;
+            }
+            .sub5{
+                position: absolute;
+                top: 5vh;
+            }
+        .main2{
+            width: 100vw;
+            height: 100vh;
+            background-color:rgb(228,228,228);  
+        }
+        .main:hover .sub1{
+            background-color: rgb(255,255,255,0);
+            border: 15px solid red;
+            color: red;
+            transform: rotate(-10deg);
+            left: 8vw;
+        }
+        .main:hover .sub2{
+            background-color: rgb(255,255,255,0);
+            border: 15px solid green;
+            color:green;
+            transform: rotate(10deg);
+        }
+         .main:hover .sub3{
+            background-color: rgb(255,255,255,0);
+            border: 15px solid dodgerblue;
+            color: dodgerblue;
+            transform: rotate(-10deg);
+            right: 32vw;
+        }
+         .main:hover .sub4{
+            background-color: rgb(255,255,255,0);
+            border: 15px solid yellow;
+            color: yellow;
+            transform: rotate(10deg);
+            right: 12vw;
+        }
+
+
+        </style> 
+ </head> 
+<body> 
+    <div class="main">
+        <div class="box sub1"> 
+            Z
+        </div>
+        <div class="box sub2"> 
+            O
+        </div>
+        <div class="box sub3"> 
+            H
+        </div>
+        <div class="box sub4"> 
+            O
+        </div>
+        <div class="sub5"> 
+            <img src="https://brandlogos.net/wp-content/uploads/2023/08/zoho-logo_brandlogos.net_kduhg-300x300.png" alt="">
+        
+
+            
+        </div>
+        <div class="main2">
+
+        </div>
+        </div>
+</body>
+</html>
